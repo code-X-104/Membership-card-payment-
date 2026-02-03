@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Silver Fan Card",
+    "description": "Exclusive updates and behind-the-scenes content",
+    "price": 10
+  },
+  {
+    "name": "Gold Fan Card",
+    "description": "VIP access, early ticket drops, private releases",
+    "price": 25
+  },
+  {
+    "name": "Platinum Fan Card",
+    "description": "All-access pass, meet & greet, premium perks",
+    "price": 50
+  }
+]
