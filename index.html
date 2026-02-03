@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Official Fan Club VIP</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://checkout.flutterwave.com/v3.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container hero-content">
+      <img src="artist-logo.png" alt="Artist Logo" class="artist-logo" />
+      <h1>Official Fan Club VIP</h1>
+      <p>Exclusive access. Early releases. VIP content.</p>
+    </div>
+  </header>
+
+  <!-- MEMBERSHIP CARDS -->
+  <section class="pricing">
+    <div class="container">
+      <h2>Choose Your Membership</h2>
+      <div id="products" class="cards"></div>
+    </div>
+  </section>
+
+  <!-- SUCCESS / DIGITAL CARD -->
+  <section id="success" class="success hidden">
+    <div class="container">
+      <h2>🎉 Membership Activated</h2>
+      <p>Your digital fan card is ready!</p>
+      <div class="member-card">
+        <span class="label">Membership ID</span>
+        <strong id="memberId"></strong>
+        <span id="memberPlan" class="plan"></span>
+        <div id="qrcode" style="margin-top:20px;"></div>
+        <button onclick="downloadCard()">Download Card</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Official Fan Club VIP. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
